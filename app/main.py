@@ -12,7 +12,7 @@ app = FastAPI()  #instance" of the class FastAPI
 
 @app.get("/")  #This decorator tells FastAPI that the function below corresponds to the path / with an operation get
 def root(): #Function that receives a request to the URL "/" using a GET operation
-    return {"message": "ZDAVO MAJI MIDO"}
+    return {"message": "PUSIS GA GLAVATI"}
 
 origins = ["*"]
 
